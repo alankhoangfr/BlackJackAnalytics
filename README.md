@@ -22,7 +22,8 @@ import os
 # Generating the Data
 
 If you want to generate the data in the command line use : python generateData.py
-otherwise you can look at the export_dataframeTrainingRandom260419.csv
+otherwise you can look at the export_dataframeTrainingRandom260419.csv  
+It will generate 100000 rounds of Blackjack with 6 decks that are shuffled randomly and 4 players. Each player will decided randomly
 
 # Training the model
 
@@ -30,12 +31,13 @@ In the command line use : python trainingModel.py and a new folder Models_pickle
 
 # Generating the games using thope, random and the other models
 
-In the command line use : python generate.py , you must have trained the models before with python trainingModel.py
+In the command line use : python generate.py , you must have trained the models before with python trainingModel.py  
+It will generate 100000 rounds of Blackjack with 6 decks that are shuffled randomly and 4 players. Each player will decided based on the algorithm
 
 # Generating the games using thope, random and the other models using the same cards
 
-In the command line use : python generateSameDeck.py , you must have trained the models before with python trainingModel.py
-
+In the command line use : python generateSameDeck.py , you must have trained the models before with python trainingModel.py  
+It will generate 100000 rounds of Blackjack with 6 decks that are shuffled randomly and 4 players. Each player will decided based on the algorithm but all using the same cards
 # Results
 
 Open the BlackJackAnlaytics.ipynb in order to have a look at the analysis of the models.
