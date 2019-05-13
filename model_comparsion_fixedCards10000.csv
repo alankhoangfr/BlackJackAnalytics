@@ -1,0 +1,19 @@
+Model,Model Name,Info,Win Rate,Number of plays,Comment
+RandomRun,Random,"4 Players, 6 Decks 5000 Rounds",0.305219319,41059,None
+ThorpeRun,Thorpe Strategy - Basic Strategy,"4 Players, Same Cards as the Random Run",0.433061449,41807,None
+MLPUnbalance,Neural Network - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.429077595,42335,True Count
+MLPbalance,Neural Network - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.429796995,43595,True Count
+GradientBoostingBalance,Gradient Boosting - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.429040981,42898,True Count
+GradientBoostingUnBalance,Gradient Boosting - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.434755662,41950,True Count
+randomForestUnbalanced,Random Forest - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.432930871,42240,True Count
+randomForestbalanced,Random Forest - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.426980374,42290,True Count
+vote,Ensemble Model - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.427476969,42552,True Count
+voteUnBalance,Ensemble Model - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.431385548,42236,True Count
+MLPUnbalanceRound,Neural Network - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.437219571,42123,Round Count
+MLPbalanceRound,Neural Network - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.432407364,43126,Round Count
+GradientBoostingBalanceRound,Gradient Boosting - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.437158212,42424,Round Count
+GradientBoostingUnBalanceRound,Gradient Boosting - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.435330327,41913,Round Count
+randomForestUnbalancedRound,Random Forest - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.434171262,41889,Round Count
+randomForestbalancedRound,Random Forest - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.432138695,42049,Round Count
+voteRound,Ensemble Model - Balance and Scaled Data,"4 Players, Same Cards as the Random Run",0.436728068,42507,Round Count
+voteUnBalanceRound,Ensemble Model - Imbalance and Scaled Data,"4 Players, Same Cards as the Random Run",0.436581473,41983,Round Count

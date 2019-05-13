@@ -1,0 +1,19 @@
+Model,Model Name,Info,Win Rate,Number of plays,Comment
+ThorpeRun,Thorpe Strategy - Basic Strategy,"4 Players, 6 Decks, 10000 Rounds",0.430866602,41080,None
+RandomRun,Random ,"4 Players, 6 Decks 10000 Rounds",0.30605501,41156,None
+MLPUnbalanceRound,Neural Network - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.435357743,41049,Round Count
+MLPbalanceRound,Neural Network - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.425315346,41066,Round Count
+GradientBoostingBalanceRound,Gradient Boosting - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.434825967,41113,Round Count
+GradientBoostingUnBalanceRound,Gradient Boosting - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.437395091,41107,Round Count
+randomForestUnbalancedRound,Random Forest - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.43225995,41054,Round Count
+randomForestbalancedRound,Random Forest - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.42775383,41061,Round Count
+voteRound,Ensemble Model - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.428947497,41026,Round Count
+voteUnBalanceRound,Ensemble Model - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.429987096,41071,Round Count
+MLPUnbalance,Neural Network - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.437052898,41098,True Count
+MLPbalance,Neural Network - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.424913512,41046,True Count
+GradientBoostingBalance,Gradient Boosting - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.432844903,41084,True Count
+GradientBoostingUnBalance,Gradient Boosting - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.438127904,41109,True Count
+randomForestUnbalanced,Random Forest - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.426879493,41035,True Count
+randomForestbalanced,Random Forest - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.422701492,41081,True Count
+vote,Ensemble Model - Balance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.424624156,41041,True Count
+voteUnBalance,Ensemble Model - Imbalance and Scaled Data,"4 Players, 6 Decks, 10000 Rounds",0.425175541,41016,True Count
