@@ -1,5 +1,4 @@
-# BlackJackAnalytics
-Can you beat the casino?
+
 # Generating the Data
 
 If you want to generate the data in the command line use : python generateData.py
