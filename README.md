@@ -1,23 +1,23 @@
 # Dependency
 
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import seaborn as sns
-import random
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn import preprocessing
-from sklearn.utils import resample
-from sklearn.metrics import accuracy_score, log_loss,roc_auc_score,classification_report,confusion_matrix
-from sklearn.metrics import precision_recall_fscore_support
-from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.ensemble import GradientBoostingClassifier,VotingClassifier
-from sklearn.model_selection import RandomizedSearchCV
-import pickle
-from sklearn.model_selection import GridSearchCV
-import os
+import numpy as np # linear algebra  
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)  
+import seaborn as sns  
+import random  
+import matplotlib.pyplot as plt  
+from sklearn.model_selection import train_test_split  
+from sklearn import preprocessing  
+from sklearn.utils import resample  
+from sklearn.metrics import accuracy_score, log_loss,roc_auc_score,classification_report,confusion_matrix  
+from sklearn.metrics import precision_recall_fscore_support  
+from sklearn.ensemble import RandomForestClassifier  
+from xgboost import XGBClassifier  
+from sklearn.neural_network import MLPClassifier  
+from sklearn.ensemble import GradientBoostingClassifier,VotingClassifier  
+from sklearn.model_selection import RandomizedSearchCV  
+import pickle  
+from sklearn.model_selection import GridSearchCV  
+import os  
 
 # Generating the Data
 
