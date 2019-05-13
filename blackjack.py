@@ -499,7 +499,7 @@ def generate_fixed_cards(number_of_players,all_cards,algo,modelName,TrueCount):
 		showNNDataTotal = show["NNDataTotal"]
 		showNNDataTotal["StartRunningCount"]=theCount
 		NNDataTotal=NNDataTotal.append(show["NNDataTotal"],ignore_index=True,sort=False)
-		#print(show)
+		print(show)
 		total_wins+=show["winCount"]
 	result = {}
 	result["Data"]=NNDataTotal
